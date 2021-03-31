@@ -1,1 +1,29 @@
-// TODO
+.container{
+  max-width: 721px;
+  margin: 0 auto;
+}
+
+.info{
+  font-size: 14px;
+  line-height: 17px;
+  color: #BBBBBB;
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  svg{
+    margin-right: 8px;
+  }
+  >time{
+    padding-right: 24px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+  >span{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding-right: 24px;
+  }
+
+}

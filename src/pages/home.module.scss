@@ -1,1 +1,35 @@
-// TODO
+.listPosts{
+  padding-top: 17px;
+  list-style-type: none;
+}
+
+.title{
+  padding-top: 48px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+
+  text-align: justify;
+  letter-spacing: -0.5px;
+
+  color: #F8F8F8;
+  padding-bottom: 8px;
+}
+
+.desc{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #D7D7D7;
+}
+
+.morePosts{
+  font-weight: 600;
+  font-size: 18px;
+  color: #FF57B2;
+  margin-top: 64px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}
