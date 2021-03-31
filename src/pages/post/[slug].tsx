@@ -97,17 +97,18 @@ export default function Post({
               min
             </span>
           </div>
-          {post.last_publication_date && (
-            <div className={styles.edited}>
-              {format(
-                new Date(post.last_publication_date),
-                "'* editado em' dd MMM yyyy', às' HH:mm",
-                {
-                  locale: ptBR,
-                }
-              )}
-            </div>
-          )}
+          {post.last_publication_date &&
+            post.last_publication_date !== post.first_publication_date && (
+              <div className={styles.edited}>
+                {format(
+                  new Date(post.last_publication_date),
+                  "'* editado em' dd MMM yyyy', às' HH:mm",
+                  {
+                    locale: ptBR,
+                  }
+                )}
+              </div>
+            )}
 
           {post.data.content.map(content => (
             <Fragment key={content.heading}>
