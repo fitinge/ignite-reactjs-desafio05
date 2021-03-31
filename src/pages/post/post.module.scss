@@ -32,3 +32,33 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.navigation{
+  border-top: rgba(215,215,215, .1) 1px solid;
+  padding-top: 48px;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  >div{
+    h3{
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: normal;
+      letter-spacing: -0.5px;
+      color: #F8F8F8;
+      padding-bottom: 8px;
+    }
+    &:last-child{
+      text-align: right;
+    }
+  }
+}
+.edited{
+  padding-top: 16px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #BBBBBB;
+}
